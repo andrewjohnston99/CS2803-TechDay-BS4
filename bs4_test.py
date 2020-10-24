@@ -1,8 +1,9 @@
+# pip install bs4
+# pip install requests
+
 import csv
-import json
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
 
 has_args = False
 while not has_args:
